@@ -14,3 +14,14 @@ The `/data/` folder expects the folders `hosp/`, `icu/` and `note/` from MIMIC-I
 * To run the mortality prediction, load the patient cohort into the `eval_datasets` folder, then use `precompute_embeddings.py` to compute embeddings of the cohort using the desired model. The embeddings can the be used in `mortality_pred.py` to run the mortality prediction.
 
 * To run eGFR prediction and CKD prognosis, similarly, load the CKD cohort into the `eval_datasets` folder. Then refer to `compute_ckd_embeddings.ipynb` to prepare the embeddings for the downstream tasks. With these embeddings, tasks can then be run in `ckd_eval.ipynb`, the notebook contains necessary explanatory comments. 
+
+
+Preprint: https://arxiv.org/abs/2502.15996
+Cite our work using:
+Kumar, A., Rauch, S., Cypko, M. and Amft, O., 2025. Med-gte-hybrid: A contextual embedding transformer model for extracting actionable information from clinical texts. arXiv preprint arXiv:2502.15996.
+or bibtex: @article{kumar2025med,
+  title={Med-gte-hybrid: A contextual embedding transformer model for extracting actionable information from clinical texts},
+  author={Kumar, Aditya and Rauch, Simon and Cypko, Mario and Amft, Oliver},
+  journal={arXiv preprint arXiv:2502.15996},
+  year={2025}
+}

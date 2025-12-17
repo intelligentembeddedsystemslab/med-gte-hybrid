@@ -1,4 +1,4 @@
-# Clinical Text Analysis
+# Clinical Text Analysis using Med-gte-hybrid
 
 Repository for the fine-tuning and evaluation of the _med-gte-hybrid_ model. _Med-gte-hybrid_ is a fine-tuned sentence-transformer to embed clinical text achieving superior results in clinical NLP tasks. For training and evaluation we used MIMIC-IV v2.2 dataset which is why we are not allowed to publish evaluation datasets or training data. For access to the MIMIC-IV dataset refer to [PhysioNet](https://physionet.org/content/mimiciv/2.2/).
 
